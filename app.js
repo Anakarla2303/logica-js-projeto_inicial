@@ -2,12 +2,14 @@ alert('Bem vindo ao jogo do número secreto');
 let numeroSecreto = Math.floor(Math.random() * 5);
 
 let tentativas = 1;
-
+//While cria um laço de repetição enquento a condição seja verdadeira 
 while (tentativas < 4) {
     let numeroDigitado = parseInt(prompt('Digite um número de 1 a 5'));
+    //if é para verificar se o numero secreto é igual ao numero digitado 
     if (numeroDigitado === numeroSecreto) {
         alert("parabéns, você acertou!");
         break;
+        //else if é para verificar se o numero digitado é maior que o numero secreto 
     } else if (numeroDigitado > numeroSecreto) {
         alert("Você digitou um numero maior que o numero secreto");
     } else {
