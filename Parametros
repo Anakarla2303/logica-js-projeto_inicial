@@ -1,0 +1,15 @@
+//Crie uma função que aceite dois parametros(numeros) e some os valores .
+function somaNumeros(a, b){
+    let soma = a + b;
+    alert(`A soma dos valores ${a}e ${b} é ${soma}`)
+}
+
+let primeiroNUmero = parseInt(promft("Digite o primeiro numero"));
+let segundoNumero =  parseInt(promft("Digite o segundo numero"));
+
+somaNumeros(primeiroNUmero, segundoNumero);
+
+
+if(2 == 2 ) and ( 3 == 3);
+if(2 == 2 ) or   (3 == 3);
+
